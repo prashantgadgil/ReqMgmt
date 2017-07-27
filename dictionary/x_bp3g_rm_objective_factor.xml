@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Objective Factor" max_length="40" name="x_bp3g_rm_objective_factor" type="collection">
+        <element label="Business Objective" max_length="32" name="business_objective" reference="x_bp3g_rm_business_objective" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Objective Equation" max_length="400" name="objective_equation" type="string"/>
+        <element display="true" label="Short Description" max_length="100" name="short_description" type="string"/>
+        <index name="index">
+            <element name="business_objective"/>
+        </index>
+    </element>
+</database>

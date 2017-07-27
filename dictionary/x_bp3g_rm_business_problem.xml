@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Business Problem" max_length="40" name="x_bp3g_rm_business_problem" type="collection">
+        <element label="Business Objective" max_length="32" name="business_objective" reference="x_bp3g_rm_business_objective" type="reference"/>
+        <element label="Long Description" max_length="1000" name="long_description" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Program" max_length="32" name="program" reference="x_bp3g_rm_program" type="reference"/>
+        <element display="true" label="Short Description" max_length="200" name="short_description" type="string"/>
+        <index name="index">
+            <element name="business_objective"/>
+        </index>
+        <index name="index2">
+            <element name="program"/>
+        </index>
+    </element>
+</database>

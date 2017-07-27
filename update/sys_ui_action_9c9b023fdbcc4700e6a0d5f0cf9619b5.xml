@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <comments>This UI action converts a selected requirement/requirements into Agile Stories ready to be slotted into Sprints</comments>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <name>Convert to Story</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var gr = new GlideRecord('rm_story');
+gr.initialize();
+gr.request_description = '';
+gr.product = '32763aafdb084700e6a0d5f0cf961936'; //sys id for Borrower portal
+gr.classification = 'Feature';
+gr.release = 'a8493623db484700e6a0d5f0cf96197b'; // ABC Mortgage Release 1.0
+gr.state = 'Ready';
+gr.type = 'Development';
+gr.points = 1;
+gr.short_description = current.title + '-' + current.number;
+gr.insert();
+var number = gr.number;
+var newsysid = gr.sys_id;
+
+current.user_story = newsysid;
+current.update();
+gs.addInfoMessage("Stories have been created - " + number);
+
+action.setRedirectURL(current);
+]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-26 04:03:57</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9c9b023fdbcc4700e6a0d5f0cf9619b5</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Convert to Story</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Requirements Management" source="x_bp3g_rm">de52168fdb840700e6a0d5f0cf96196a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Requirements Management">de52168fdb840700e6a0d5f0cf96196a</sys_scope>
+        <sys_update_name>sys_ui_action_9c9b023fdbcc4700e6a0d5f0cf9619b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-26 21:51:33</sys_updated_on>
+        <table>x_bp3g_rm_rmm</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

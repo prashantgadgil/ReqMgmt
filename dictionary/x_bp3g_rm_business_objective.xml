@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Business Objective" max_length="40" name="x_bp3g_rm_business_objective" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Product" max_length="32" name="product" reference="cmdb_model" type="reference"/>
+        <element display="true" label="Short Description" max_length="100" name="short_description" type="string"/>
+        <index name="index">
+            <element name="product"/>
+        </index>
+    </element>
+</database>

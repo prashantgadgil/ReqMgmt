@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Feature" max_length="40" name="x_bp3g_rm_feature" type="collection">
+        <element choice="3" default="L0" label="Level" max_length="40" name="level" type="choice">
+            <choice>
+                <element label="L0" sequence="10" value="L0"/>
+                <element label="L1" sequence="20" value="L1"/>
+                <element label="L2" sequence="30" value="L2"/>
+                <element label="L3" sequence="40" value="L3"/>
+            </choice>
+        </element>
+        <element label="Long Description" max_length="1000" name="long_description" type="string"/>
+        <element display="true" label="Name" max_length="50" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Objective Factor" max_length="32" name="objective_factor" reference="x_bp3g_rm_objective_factor" type="reference"/>
+        <element label="Parent Feature" max_length="32" name="parent_feature" reference="x_bp3g_rm_feature" type="reference"/>
+        <element label="Product" max_length="32" name="product" reference="cmdb_model" type="reference"/>
+        <element label="Sequence" max_length="40" name="sequence" type="integer"/>
+        <element label="Short Description" max_length="200" name="short_description" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="product"/>
+        </index>
+        <index name="index2">
+            <element name="parent_feature"/>
+        </index>
+        <index name="index3">
+            <element name="objective_factor"/>
+        </index>
+    </element>
+</database>

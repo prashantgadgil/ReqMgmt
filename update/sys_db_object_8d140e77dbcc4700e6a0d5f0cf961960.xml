@@ -6,9 +6,9 @@
         <alter_access>false</alter_access>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
-        <create_access>false</create_access>
+        <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
-        <delete_access>false</delete_access>
+        <delete_access>true</delete_access>
         <extension_model/>
         <is_extendable>false</is_extendable>
         <label>Requirement</label>
@@ -23,7 +23,7 @@
         <sys_created_on>2017-07-26 03:29:03</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>8d140e77dbcc4700e6a0d5f0cf961960</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Requirement</sys_name>
         <sys_package display_value="Requirements Management" source="x_bp3g_rm">de52168fdb840700e6a0d5f0cf96196a</sys_package>
         <sys_policy/>
@@ -31,8 +31,8 @@
         <sys_scope display_value="Requirements Management">de52168fdb840700e6a0d5f0cf96196a</sys_scope>
         <sys_update_name>sys_db_object_8d140e77dbcc4700e6a0d5f0cf961960</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-07-26 03:57:07</sys_updated_on>
-        <update_access>false</update_access>
+        <sys_updated_on>2017-07-27 15:15:30</sys_updated_on>
+        <update_access>true</update_access>
         <user_role display_value="x_bp3g_rm.rmm_user" name="x_bp3g_rm.rmm_user">66448e77dbcc4700e6a0d5f0cf9619e2</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>

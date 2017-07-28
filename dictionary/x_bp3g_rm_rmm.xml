@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Requirement" max_length="40" name="x_bp3g_rm_rmm" type="collection">
-        <element label="Business Rule" max_length="4000" name="business_rule" type="string"/>
+        <element label="Business Rules" max_length="1000" name="business_rules" type="string"/>
         <element label="Feature" max_length="32" name="feature" reference="x_bp3g_rm_feature" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Requirement" max_length="4000" name="requirement" type="string"/>
+        <element label="Requirement Details" max_length="1000" name="requirement_details" type="string"/>
         <element label="Screen" max_length="32" name="screen" reference="x_bp3g_rm_screen" type="reference"/>
         <element label="Title" max_length="40" name="title" type="string"/>
         <element label="User Story" max_length="32" name="user_story" reference="rm_story" type="reference"/>

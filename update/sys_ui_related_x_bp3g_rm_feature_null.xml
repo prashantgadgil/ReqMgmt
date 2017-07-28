@@ -3,31 +3,59 @@
     <sys_ui_related sys_domain="global" table="x_bp3g_rm_feature" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Feature - Default view" name="x_bp3g_rm_feature" related_list="NULL" sys_domain="global" view="Default view">7d5a86bbdbcc4700e6a0d5f0cf96192a</list_id>
+            <list_id display_value="Feature - Default view" name="x_bp3g_rm_feature" related_list="NULL" sys_domain="global" view="Default view">cb0fc29cdbd04300e6a0d5f0cf96195e</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_bp3g_rm_feature.parent_feature</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-26 03:55:29</sys_created_on>
-            <sys_id>3d5a86bbdbcc4700e6a0d5f0cf96192b</sys_id>
+            <sys_created_on>2017-07-27 17:33:01</sys_created_on>
+            <sys_id>830fc29cdbd04300e6a0d5f0cf96195f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-26 03:55:29</sys_updated_on>
+            <sys_updated_on>2017-07-27 17:33:01</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Feature - Default view" name="x_bp3g_rm_feature" related_list="NULL" sys_domain="global" view="Default view">7d5a86bbdbcc4700e6a0d5f0cf96192a</list_id>
+            <list_id display_value="Feature - Default view" name="x_bp3g_rm_feature" related_list="NULL" sys_domain="global" view="Default view">cb0fc29cdbd04300e6a0d5f0cf96195e</list_id>
             <order_by/>
             <position>1</position>
             <related_list>x_bp3g_rm_rmm.feature</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-26 03:55:29</sys_created_on>
-            <sys_id>395a86bbdbcc4700e6a0d5f0cf96192c</sys_id>
+            <sys_created_on>2017-07-27 17:33:01</sys_created_on>
+            <sys_id>870fc29cdbd04300e6a0d5f0cf96195f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-26 03:55:29</sys_updated_on>
+            <sys_updated_on>2017-07-27 17:33:01</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Feature - Default view" name="x_bp3g_rm_feature" related_list="NULL" sys_domain="global" view="Default view">cb0fc29cdbd04300e6a0d5f0cf96195e</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>rm_defect.u_feature</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-27 17:33:01</sys_created_on>
+            <sys_id>8b0fc29cdbd04300e6a0d5f0cf96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-27 17:33:01</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Feature - Default view" name="x_bp3g_rm_feature" related_list="NULL" sys_domain="global" view="Default view">cb0fc29cdbd04300e6a0d5f0cf96195e</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>rm_enhancement.u_requirement_feature</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-27 17:33:01</sys_created_on>
+            <sys_id>8f0fc29cdbd04300e6a0d5f0cf96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-27 17:33:01</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Feature - Default view</calculated_name>
@@ -38,11 +66,11 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-26 03:55:29</sys_created_on>
+            <sys_created_on>2017-07-27 17:33:01</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>7d5a86bbdbcc4700e6a0d5f0cf96192a</sys_id>
+            <sys_id>cb0fc29cdbd04300e6a0d5f0cf96195e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Feature - Default view</sys_name>
             <sys_package display_value="Requirements Management" source="x_bp3g_rm">de52168fdb840700e6a0d5f0cf96196a</sys_package>
@@ -51,7 +79,7 @@
             <sys_scope display_value="Requirements Management">de52168fdb840700e6a0d5f0cf96196a</sys_scope>
             <sys_update_name>sys_ui_related_x_bp3g_rm_feature_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-26 03:55:29</sys_updated_on>
+            <sys_updated_on>2017-07-27 17:33:01</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

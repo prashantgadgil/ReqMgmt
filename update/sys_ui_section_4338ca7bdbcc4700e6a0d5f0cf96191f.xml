@@ -2,16 +2,16 @@
 <record_update>
     <sys_ui_section caption="Requirement" section_id="4338ca7bdbcc4700e6a0d5f0cf96191f" sys_domain="global" table="x_bp3g_rm_rmm" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>requirement</element>
+            <element>requirement_details</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-26 03:46:18</sys_created_on>
-            <sys_id>db38ca7bdbcc4700e6a0d5f0cf961937</sys_id>
+            <sys_created_on>2017-07-27 15:16:37</sys_created_on>
+            <sys_id>8ddfe11cdb904300e6a0d5f0cf96196a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Requirement" display_value="Requirement" name="x_bp3g_rm_rmm" sys_domain="global" view="Default view">4338ca7bdbcc4700e6a0d5f0cf96191f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-26 03:46:18</sys_updated_on>
+            <sys_updated_on>2017-07-27 15:16:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

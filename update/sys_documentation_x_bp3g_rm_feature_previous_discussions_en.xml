@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="business_rule" label="Business Rule" language="en" table="x_bp3g_rm_rmm">
+    <sys_documentation element="previous_discussions" label="Previous Discussions" language="en" table="x_bp3g_rm_feature">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>business_rule</element>
+            <element>previous_discussions</element>
             <help/>
             <hint/>
-            <label>Business Rule</label>
+            <label>Previous Discussions</label>
             <language>en</language>
-            <name>x_bp3g_rm_rmm</name>
-            <plural>Business Rules</plural>
+            <name>x_bp3g_rm_feature</name>
+            <plural>Previous Discussions</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-26 03:33:16</sys_created_on>
+            <sys_created_on>2017-07-27 17:47:54</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
-            <sys_id>dc4506f7dbcc4700e6a0d5f0cf9619e9</sys_id>
+            <sys_id>9172da10db144300e6a0d5f0cf961916</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Business Rule</sys_name>
+            <sys_name>Previous Discussions</sys_name>
             <sys_package display_value="Requirements Management" source="x_bp3g_rm">de52168fdb840700e6a0d5f0cf96196a</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Requirements Management">de52168fdb840700e6a0d5f0cf96196a</sys_scope>
-            <sys_update_name>sys_documentation_x_bp3g_rm_rmm_business_rule_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_bp3g_rm_feature_previous_discussions_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-26 03:33:16</sys_updated_on>
+            <sys_updated_on>2017-07-27 17:47:54</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

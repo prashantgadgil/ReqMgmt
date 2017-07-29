@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Feature" max_length="40" name="x_bp3g_rm_feature" type="collection">
+        <element label="Business Objective" max_length="32" name="business_objective" reference="x_bp3g_rm_business_objective" type="reference"/>
         <element label="Discussion" max_length="4000" name="discussion" type="journal_input"/>
         <element choice="3" default="L0" label="Level" max_length="40" name="level" type="choice">
             <choice>
@@ -25,9 +26,12 @@
             <element name="product"/>
         </index>
         <index name="index2">
-            <element name="parent_feature"/>
+            <element name="business_objective"/>
         </index>
         <index name="index3">
+            <element name="parent_feature"/>
+        </index>
+        <index name="index4">
             <element name="objective_factor"/>
         </index>
     </element>

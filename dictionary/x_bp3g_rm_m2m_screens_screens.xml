@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Screen" max_length="40" name="x_bp3g_rm_screen" type="collection">
-        <element label="From Screen" max_length="32" name="from_screen" reference="x_bp3g_rm_screen" type="reference"/>
-        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+    <element label="Screens &lt;--&gt; Screens" max_length="40" name="x_bp3g_rm_m2m_screens_screens" type="collection">
+        <element label="To Screen" max_length="32" name="from_screen" reference="x_bp3g_rm_screen" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="To Screen" max_length="32" name="to_screen" reference="x_bp3g_rm_screen" type="reference"/>
+        <element label="From Screen" max_length="32" name="to_screen" reference="x_bp3g_rm_screen" type="reference"/>
         <index name="index">
             <element name="from_screen"/>
         </index>

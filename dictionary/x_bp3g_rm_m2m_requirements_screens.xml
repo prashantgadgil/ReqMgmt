@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Requirements &lt;-&gt; Screens" max_length="40" name="x_bp3g_rm_m2m_requirements_screens" type="collection">
+        <element label="Requirement" max_length="32" name="requirement" reference="x_bp3g_rm_rmm" type="reference"/>
+        <element label="Screen" max_length="32" name="screen" reference="x_bp3g_rm_screen" type="reference"/>
+        <index name="index">
+            <element name="screen"/>
+        </index>
+        <index name="index2">
+            <element name="requirement"/>
+        </index>
+    </element>
+</database>

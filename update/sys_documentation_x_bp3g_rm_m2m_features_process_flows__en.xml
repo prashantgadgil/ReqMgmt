@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Process Flows &lt;--&gt; Features" language="en" table="x_bp3g_rm_m2m_features_process_flows">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Process Flows &lt;--&gt; Features</label>
+            <language>en</language>
+            <name>x_bp3g_rm_m2m_features_process_flows</name>
+            <plural>Process Flows &lt;--&gt; Features</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-07-29 04:15:06</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>969be170dbd08300e6a0d5f0cf961965</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Process Flows &lt;--&gt; Features</sys_name>
+            <sys_package display_value="Requirements Management" source="x_bp3g_rm">de52168fdb840700e6a0d5f0cf96196a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Requirements Management">de52168fdb840700e6a0d5f0cf96196a</sys_scope>
+            <sys_update_name>sys_documentation_x_bp3g_rm_m2m_features_process_flows__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-07-29 04:15:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

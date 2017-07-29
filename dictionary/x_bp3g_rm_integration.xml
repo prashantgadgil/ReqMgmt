@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Integration" max_length="40" name="x_bp3g_rm_integration" type="collection">
+        <element label="From System" max_length="32" name="from_system" reference="x_bp3g_rm_system" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="Short Description" max_length="200" name="short_description" type="string"/>
+        <element label="To System" max_length="32" name="to_system" reference="x_bp3g_rm_system" type="reference"/>
+        <element label="Type" max_length="40" name="type" type="string"/>
+        <index name="index">
+            <element name="to_system"/>
+        </index>
+        <index name="index2">
+            <element name="from_system"/>
+        </index>
+    </element>
+</database>

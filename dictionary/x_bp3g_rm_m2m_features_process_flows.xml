@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Process Flows &lt;--&gt; Features" max_length="40" name="x_bp3g_rm_m2m_features_process_flows" type="collection">
+        <element label="Feature" max_length="32" name="feature" reference="x_bp3g_rm_feature" type="reference"/>
+        <element label="Process Flow" max_length="32" name="process_flow" reference="x_bp3g_rm_process_flow" type="reference"/>
+        <index name="index">
+            <element name="feature"/>
+        </index>
+        <index name="index2">
+            <element name="process_flow"/>
+        </index>
+    </element>
+</database>

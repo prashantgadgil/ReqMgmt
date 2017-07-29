@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Requirements &lt;-&gt; Integrations" max_length="40" name="x_bp3g_rm_m2m_requirements_integrations" type="collection">
+        <element label="Integration" max_length="32" name="integration" reference="x_bp3g_rm_integration" type="reference"/>
+        <element label="Requirement" max_length="32" name="requirement" reference="x_bp3g_rm_rmm" type="reference"/>
+        <index name="index">
+            <element name="integration"/>
+        </index>
+        <index name="index2">
+            <element name="requirement"/>
+        </index>
+    </element>
+</database>

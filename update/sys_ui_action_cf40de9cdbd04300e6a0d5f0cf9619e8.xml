@@ -11,18 +11,46 @@
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
         <hint/>
-        <list_action>false</list_action>
-        <list_banner_button>false</list_banner_button>
-        <list_button>false</list_button>
+        <list_action>true</list_action>
+        <list_banner_button>true</list_banner_button>
+        <list_button>true</list_button>
         <list_choice>false</list_choice>
         <list_context_menu>false</list_context_menu>
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
-        <name>Convert to Story*</name>
+        <name>Convert Defect to Story</name>
         <onclick/>
         <order>100</order>
-        <script/>
-        <show_insert>true</show_insert>
+        <script><![CDATA[var gr = new GlideRecord('rm_story');
+gr.initialize();
+gr.request_description = '';
+gr.product = '32763aafdb084700e6a0d5f0cf961936'; //sys id for Borrower portal
+gr.classification = 'Defect';
+gr.release = 'a8493623db484700e6a0d5f0cf96197b'; // ABC Mortgage Release 1.0
+gr.state = 'Ready';
+gr.type = 'Development';
+gr.points = 1;
+gr.short_description = current.short_description + '-' + current.number;
+gr.description = current.short_description + '-' + current.number;
+//gr.u_requirement = current.sys_id;
+gr.insert();
+var number = gr.number;
+var newsysid = gr.sys_id;
+
+current.u_user_story = newsysid;
+current.update();
+gs.addInfoMessage("Stories have been created - " + number);
+
+//update short description with story number.
+var rec = new GlideRecord('rm_story');
+rec.addQuery('sys_id', newsysid);
+rec.query();
+while (rec.next()) { 
+  rec.short_description = rec.number;
+  rec.update();
+}
+]]></script>
+        <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
@@ -33,8 +61,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cf40de9cdbd04300e6a0d5f0cf9619e8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Convert to Story*</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Convert Defect to Story</sys_name>
         <sys_overrides/>
         <sys_package display_value="Requirements Management" source="x_bp3g_rm">de52168fdb840700e6a0d5f0cf96196a</sys_package>
         <sys_policy/>
@@ -42,7 +70,7 @@
         <sys_scope display_value="Requirements Management">de52168fdb840700e6a0d5f0cf96196a</sys_scope>
         <sys_update_name>sys_ui_action_cf40de9cdbd04300e6a0d5f0cf9619e8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-07-27 17:38:50</sys_updated_on>
+        <sys_updated_on>2017-08-09 04:29:07</sys_updated_on>
         <table>rm_defect</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

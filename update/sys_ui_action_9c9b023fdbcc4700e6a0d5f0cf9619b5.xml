@@ -11,9 +11,9 @@
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
         <hint/>
-        <list_action>false</list_action>
-        <list_banner_button>false</list_banner_button>
-        <list_button>false</list_button>
+        <list_action>true</list_action>
+        <list_banner_button>true</list_banner_button>
+        <list_button>true</list_button>
         <list_choice>false</list_choice>
         <list_context_menu>false</list_context_menu>
         <list_link>false</list_link>
@@ -30,7 +30,8 @@ gr.release = 'a8493623db484700e6a0d5f0cf96197b'; // ABC Mortgage Release 1.0
 gr.state = 'Ready';
 gr.type = 'Development';
 gr.points = 1;
-gr.short_description = current.title + '-' + current.number;
+gr.short_description = current.title + '-' + gr.number;
+gr.description = current.title + '-' + current.number;
 gr.u_requirement = current.sys_id;
 gr.insert();
 var number = gr.number;
@@ -39,6 +40,16 @@ var newsysid = gr.sys_id;
 current.user_story = newsysid;
 current.update();
 gs.addInfoMessage("Stories have been created - " + number);
+
+//update short description with story number.
+var rec = new GlideRecord('rm_story');
+rec.addQuery('sys_id', newsysid);
+rec.query();
+while (rec.next()) { 
+  rec.short_description = rec.number;
+  rec.update();
+}
+
 
 action.setRedirectURL(current);
 ]]></script>
@@ -53,7 +64,7 @@ action.setRedirectURL(current);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9c9b023fdbcc4700e6a0d5f0cf9619b5</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Convert to Story</sys_name>
         <sys_overrides/>
         <sys_package display_value="Requirements Management" source="x_bp3g_rm">de52168fdb840700e6a0d5f0cf96196a</sys_package>
@@ -62,7 +73,7 @@ action.setRedirectURL(current);
         <sys_scope display_value="Requirements Management">de52168fdb840700e6a0d5f0cf96196a</sys_scope>
         <sys_update_name>sys_ui_action_9c9b023fdbcc4700e6a0d5f0cf9619b5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-07-28 18:25:18</sys_updated_on>
+        <sys_updated_on>2017-08-09 03:45:36</sys_updated_on>
         <table>x_bp3g_rm_rmm</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

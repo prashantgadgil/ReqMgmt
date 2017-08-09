@@ -4,6 +4,13 @@
         <element label="Business Rules" max_length="1000" name="business_rules" type="string"/>
         <element label="Feature" max_length="32" name="feature" reference="x_bp3g_rm_feature" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="Medium" label="Priority" max_length="40" name="priority" type="string">
+            <choice>
+                <element label="High" sequence="10" value="High"/>
+                <element label="Medium" sequence="20" value="Medium"/>
+                <element label="Low" sequence="30" value="Low"/>
+            </choice>
+        </element>
         <element label="Requirement Details" max_length="1000" name="requirement_details" type="string"/>
         <element label="Screen" max_length="32" name="screen" reference="x_bp3g_rm_screen" type="reference"/>
         <element display="true" label="Title" max_length="40" name="title" type="string"/>

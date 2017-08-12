@@ -13,6 +13,15 @@
         </element>
         <element label="Requirement Details" max_length="1000" name="requirement_details" type="string"/>
         <element label="Screen" max_length="32" name="screen" reference="x_bp3g_rm_screen" type="reference"/>
+        <element choice="3" default="Draft" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element label="Draft" sequence="10" value="Draft"/>
+                <element label="Modified" sequence="20" value="Modified"/>
+                <element label="Approved" sequence="30" value="Approved"/>
+                <element label="Scheduled" sequence="40" value="Scheduled"/>
+                <element label="Completed" sequence="50" value="Completed"/>
+            </choice>
+        </element>
         <element display="true" label="Title" max_length="40" name="title" type="string"/>
         <element label="User Story" max_length="32" name="user_story" reference="rm_story" type="reference"/>
         <index name="index">

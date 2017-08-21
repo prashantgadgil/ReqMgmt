@@ -4,16 +4,16 @@
         <action_name/>
         <active>true</active>
         <client>false</client>
-        <comments>This UI action converts a selected requirement/requirements into Agile Stories ready to be slotted into Sprints</comments>
+        <comments>This link will convert this requirement into Agile user story ready to be slotted into a sprint</comments>
         <condition/>
         <form_action>true</form_action>
-        <form_button>true</form_button>
+        <form_button>false</form_button>
         <form_context_menu>false</form_context_menu>
-        <form_link>false</form_link>
-        <hint/>
-        <list_action>true</list_action>
-        <list_banner_button>true</list_banner_button>
-        <list_button>true</list_button>
+        <form_link>true</form_link>
+        <hint>This link will convert this requirement into Agile user story ready to be slotted into a sprint</hint>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
         <list_choice>false</list_choice>
         <list_context_menu>false</list_context_menu>
         <list_link>false</list_link>
@@ -38,8 +38,9 @@ var number = gr.number;
 var newsysid = gr.sys_id;
 
 current.user_story = newsysid;
+current.status = 'Backlog';
 current.update();
-gs.addInfoMessage("Stories have been created - " + number);
+gs.addInfoMessage("New story " + number + " has been created for this requirement ");
 
 //update short description with story number.
 var rec = new GlideRecord('rm_story');
@@ -64,7 +65,7 @@ action.setRedirectURL(current);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9c9b023fdbcc4700e6a0d5f0cf9619b5</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>Convert to Story</sys_name>
         <sys_overrides/>
         <sys_package display_value="Requirements Management" source="x_bp3g_rm">de52168fdb840700e6a0d5f0cf96196a</sys_package>
@@ -73,7 +74,7 @@ action.setRedirectURL(current);
         <sys_scope display_value="Requirements Management">de52168fdb840700e6a0d5f0cf96196a</sys_scope>
         <sys_update_name>sys_ui_action_9c9b023fdbcc4700e6a0d5f0cf9619b5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-09 03:45:36</sys_updated_on>
+        <sys_updated_on>2017-08-15 18:47:54</sys_updated_on>
         <table>x_bp3g_rm_rmm</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

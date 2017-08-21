@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Requirement" max_length="40" name="x_bp3g_rm_rmm" type="collection">
+    <element audit="true" label="Requirement" max_length="40" name="x_bp3g_rm_rmm" type="collection">
         <element label="Business Rules" max_length="1000" name="business_rules" type="string"/>
-        <element label="Feature" max_length="32" name="feature" reference="x_bp3g_rm_feature" type="reference"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Feature" mandatory="true" max_length="32" name="feature" reference="x_bp3g_rm_feature" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element choice="3" default="Medium" label="Priority" max_length="40" name="priority" type="string">
             <choice>
                 <element label="High" sequence="10" value="High"/>
@@ -12,26 +12,22 @@
             </choice>
         </element>
         <element label="Requirement Details" max_length="1000" name="requirement_details" type="string"/>
-        <element label="Screen" max_length="32" name="screen" reference="x_bp3g_rm_screen" type="reference"/>
-        <element choice="3" default="Draft" label="Status" max_length="40" name="status" type="string">
+        <element choice="3" default="Draft" label="Status" max_length="40" name="status" read_only="true" type="string">
             <choice>
-                <element label="Draft" sequence="10" value="Draft"/>
-                <element label="Modified" sequence="20" value="Modified"/>
-                <element label="Approved" sequence="30" value="Approved"/>
-                <element label="Scheduled" sequence="40" value="Scheduled"/>
-                <element label="Completed" sequence="50" value="Completed"/>
+                <element label="Draft" sequence="0" value="Draft"/>
+                <element label="Modified" sequence="1" value="Modified"/>
+                <element label="Approved" sequence="2" value="Approved"/>
+                <element label="Scheduled" sequence="3" value="Scheduled"/>
+                <element label="Completed" sequence="4" value="Completed"/>
             </choice>
         </element>
-        <element display="true" label="Title" max_length="40" name="title" type="string"/>
-        <element label="User Story" max_length="32" name="user_story" reference="rm_story" type="reference"/>
+        <element display="true" label="Title" mandatory="true" max_length="40" name="title" type="string"/>
+        <element label="User Story" max_length="32" name="user_story" read_only="true" reference="rm_story" type="reference"/>
         <index name="index">
             <element name="user_story"/>
         </index>
         <index name="index2">
             <element name="feature"/>
-        </index>
-        <index name="index3">
-            <element name="screen"/>
         </index>
     </element>
 </database>

@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Brazos Requirements Modeling">72b5f2d3db004700e6a0d5f0cf961941</application>
+        <application display_value="Business Requirements Mgmt">72b5f2d3db004700e6a0d5f0cf961941</application>
         <assessment/>
         <content_page/>
         <device_type/>

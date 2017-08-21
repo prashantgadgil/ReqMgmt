@@ -5,19 +5,38 @@
             <dependent_value/>
             <element>status</element>
             <hint/>
+            <inactive>true</inactive>
+            <label>Backlog</label>
+            <language>en</language>
+            <name>x_bp3g_rm_rmm</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-12 01:29:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fddb8559db60cb00e6a0d5f0cf96191b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-12 01:32:49</sys_updated_on>
+            <value>Backlog</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
             <inactive>false</inactive>
             <label>Draft</label>
             <language>en</language>
             <name>x_bp3g_rm_rmm</name>
-            <sequence>10</sequence>
+            <sequence>0</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-08-11 23:54:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>0f267c1ddb20cb00e6a0d5f0cf96192f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-11 23:54:32</sys_updated_on>
+            <sys_updated_on>2017-08-12 01:32:49</sys_updated_on>
             <value>Draft</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -28,15 +47,15 @@
             <label>Modified</label>
             <language>en</language>
             <name>x_bp3g_rm_rmm</name>
-            <sequence>20</sequence>
+            <sequence>1</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-08-11 23:54:50</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>9e46f41ddb20cb00e6a0d5f0cf961931</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-11 23:54:50</sys_updated_on>
+            <sys_updated_on>2017-08-12 01:32:49</sys_updated_on>
             <value>Modified</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -47,15 +66,15 @@
             <label>Approved</label>
             <language>en</language>
             <name>x_bp3g_rm_rmm</name>
-            <sequence>30</sequence>
+            <sequence>2</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-08-11 23:55:06</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>1256b81ddb20cb00e6a0d5f0cf9619e2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-11 23:55:06</sys_updated_on>
+            <sys_updated_on>2017-08-12 01:32:49</sys_updated_on>
             <value>Approved</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -66,15 +85,15 @@
             <label>Scheduled</label>
             <language>en</language>
             <name>x_bp3g_rm_rmm</name>
-            <sequence>40</sequence>
+            <sequence>3</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-08-11 23:55:23</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>a666bc1ddb20cb00e6a0d5f0cf9619f1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-11 23:55:23</sys_updated_on>
+            <sys_updated_on>2017-08-12 01:32:49</sys_updated_on>
             <value>Scheduled</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -85,15 +104,15 @@
             <label>Completed</label>
             <language>en</language>
             <name>x_bp3g_rm_rmm</name>
-            <sequence>50</sequence>
+            <sequence>4</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-08-11 23:55:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>7576f81ddb20cb00e6a0d5f0cf961975</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-11 23:55:37</sys_updated_on>
+            <sys_updated_on>2017-08-12 01:32:49</sys_updated_on>
             <value>Completed</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
@@ -104,7 +123,7 @@
             <sys_created_on>2017-08-11 23:54:32</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>82363cd9db20cb00e6a0d5f0cf961965</sys_id>
-            <sys_mod_count>5</sys_mod_count>
+            <sys_mod_count>7</sys_mod_count>
             <sys_name>status</sys_name>
             <sys_package display_value="Requirements Management" source="x_bp3g_rm">de52168fdb840700e6a0d5f0cf96196a</sys_package>
             <sys_policy/>
@@ -112,7 +131,7 @@
             <sys_scope display_value="Requirements Management">de52168fdb840700e6a0d5f0cf96196a</sys_scope>
             <sys_update_name>sys_choice_x_bp3g_rm_rmm_status</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-11 23:55:37</sys_updated_on>
+            <sys_updated_on>2017-08-12 01:32:49</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

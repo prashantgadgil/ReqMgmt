@@ -37,7 +37,7 @@
         <name>x_bp3g_rm_rmm</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -54,7 +54,7 @@
         <sys_created_on>2017-08-11 23:53:39</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>70f5b41ddb20cb00e6a0d5f0cf96198b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Status</sys_name>
         <sys_package display_value="Requirements Management" source="x_bp3g_rm">de52168fdb840700e6a0d5f0cf96196a</sys_package>
         <sys_policy/>
@@ -62,7 +62,7 @@
         <sys_scope display_value="Requirements Management">de52168fdb840700e6a0d5f0cf96196a</sys_scope>
         <sys_update_name>sys_dictionary_x_bp3g_rm_rmm_status</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-11 23:55:57</sys_updated_on>
+        <sys_updated_on>2017-08-12 02:27:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

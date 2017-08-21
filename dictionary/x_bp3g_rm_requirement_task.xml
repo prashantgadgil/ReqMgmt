@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="task" label="Requirement Task" max_length="40" name="x_bp3g_rm_requirement_task" type="collection">
-        <element label="Requirement" max_length="32" name="requirement" reference="x_bp3g_rm_rmm" type="reference"/>
-    </element>
-</database>

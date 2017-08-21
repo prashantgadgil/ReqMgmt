@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_ui_related sys_domain="global" table="x_bp3g_rm_rmm" version="2" view="">
+    <sys_ui_related sys_domain="global" table="cmdb_model" version="2" view="reqmgmt_view">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Requirement - Default view" name="x_bp3g_rm_rmm" related_list="NULL" sys_domain="global" view="Default view">adc1e076db208f00e6a0d5f0cf9619ad</list_id>
+            <list_id display_value="Product Model - ReqMgmt View" name="cmdb_model" related_list="NULL" sys_domain="global" view="72651caedbe44f00e6a0d5f0cf961937">0b6510eedbe44f00e6a0d5f0cf961998</list_id>
             <order_by/>
             <position>0</position>
-            <related_list>x_bp3g_rm_m2m_requirements_integrations.requirement</related_list>
+            <related_list>cmdb_m2m_model_component.parent</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-16 14:16:06</sys_created_on>
-            <sys_id>65c1e076db208f00e6a0d5f0cf9619ae</sys_id>
+            <sys_created_on>2017-08-15 18:43:39</sys_created_on>
+            <sys_id>c76510eedbe44f00e6a0d5f0cf961999</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-16 14:16:06</sys_updated_on>
+            <sys_updated_on>2017-08-15 18:43:39</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Requirement - Default view" name="x_bp3g_rm_rmm" related_list="NULL" sys_domain="global" view="Default view">adc1e076db208f00e6a0d5f0cf9619ad</list_id>
+            <list_id display_value="Product Model - ReqMgmt View" name="cmdb_model" related_list="NULL" sys_domain="global" view="72651caedbe44f00e6a0d5f0cf961937">0b6510eedbe44f00e6a0d5f0cf961998</list_id>
             <order_by/>
             <position>1</position>
-            <related_list>x_bp3g_rm_m2m_requirements_screens.requirement</related_list>
+            <related_list>cmn_m2m_skill_model.model</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-16 14:16:06</sys_created_on>
-            <sys_id>69c1e076db208f00e6a0d5f0cf9619ae</sys_id>
+            <sys_created_on>2017-08-15 18:43:39</sys_created_on>
+            <sys_id>c36510eedbe44f00e6a0d5f0cf96199a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-16 14:16:06</sys_updated_on>
+            <sys_updated_on>2017-08-15 18:43:39</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Requirement - Default view" name="x_bp3g_rm_rmm" related_list="NULL" sys_domain="global" view="Default view">adc1e076db208f00e6a0d5f0cf9619ad</list_id>
+            <list_id display_value="Product Model - ReqMgmt View" name="cmdb_model" related_list="NULL" sys_domain="global" view="72651caedbe44f00e6a0d5f0cf961937">0b6510eedbe44f00e6a0d5f0cf961998</list_id>
             <order_by/>
             <position>2</position>
-            <related_list>REL:366eda7b0a0004970a7d925c9258806b</related_list>
+            <related_list>x_bp3g_rm_feature.product</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-16 14:16:06</sys_created_on>
-            <sys_id>6dc1e076db208f00e6a0d5f0cf9619ae</sys_id>
+            <sys_created_on>2017-08-15 18:43:39</sys_created_on>
+            <sys_id>c76510eedbe44f00e6a0d5f0cf96199a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-16 14:16:06</sys_updated_on>
+            <sys_updated_on>2017-08-15 18:43:39</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>Requirement - Default view</calculated_name>
+            <calculated_name>Product Model - ReqMgmt View</calculated_name>
             <filter/>
-            <name>x_bp3g_rm_rmm</name>
+            <name>cmdb_model</name>
             <order_by/>
             <position/>
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-16 14:16:06</sys_created_on>
+            <sys_created_on>2017-08-15 18:43:39</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>adc1e076db208f00e6a0d5f0cf9619ad</sys_id>
+            <sys_id>0b6510eedbe44f00e6a0d5f0cf961998</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Requirement - Default view</sys_name>
+            <sys_name>Product Model - ReqMgmt View</sys_name>
             <sys_package display_value="Requirements Management" source="x_bp3g_rm">de52168fdb840700e6a0d5f0cf96196a</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Requirements Management">de52168fdb840700e6a0d5f0cf96196a</sys_scope>
-            <sys_update_name>sys_ui_related_x_bp3g_rm_rmm_null</sys_update_name>
+            <sys_update_name>sys_ui_related_cmdb_model_reqmgmt_view</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-16 14:16:06</sys_updated_on>
+            <sys_updated_on>2017-08-15 18:43:39</sys_updated_on>
             <sys_user/>
-            <view display_value="Default view" name="NULL">Default view</view>
+            <view display_value="ReqMgmt View" name="reqmgmt_view">72651caedbe44f00e6a0d5f0cf961937</view>
             <view_name/>
         </sys_ui_related_list>
     </sys_ui_related>

@@ -7,10 +7,10 @@
         <comments/>
         <condition/>
         <form_action>true</form_action>
-        <form_button>true</form_button>
+        <form_button>false</form_button>
         <form_context_menu>false</form_context_menu>
-        <form_link>false</form_link>
-        <hint/>
+        <form_link>true</form_link>
+        <hint>This link will create a new requirement for this enhancement. Please categorize that requirement against a feature and convert to a backlog story.</hint>
         <list_action>false</list_action>
         <list_banner_button>false</list_banner_button>
         <list_button>false</list_button>
@@ -45,6 +45,7 @@ rec.addQuery('sys_id', newsysid);
 rec.query();
 while (rec.next()) { 
 	rec.title = rec.number;
+	rec.status = 'Draft';
 	//rec.short_description = rec.number;
   rec.update();
 }
@@ -65,7 +66,7 @@ action.setRedirectURL(current);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7c009e9cdbd04300e6a0d5f0cf96194c</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Accept as New Requirement</sys_name>
         <sys_overrides/>
         <sys_package display_value="Requirements Management" source="x_bp3g_rm">de52168fdb840700e6a0d5f0cf96196a</sys_package>
@@ -74,7 +75,7 @@ action.setRedirectURL(current);
         <sys_scope display_value="Requirements Management">de52168fdb840700e6a0d5f0cf96196a</sys_scope>
         <sys_update_name>sys_ui_action_7c009e9cdbd04300e6a0d5f0cf96194c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-09 04:46:41</sys_updated_on>
+        <sys_updated_on>2017-08-12 02:43:31</sys_updated_on>
         <table>rm_enhancement</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

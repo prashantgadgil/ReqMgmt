@@ -15,34 +15,6 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-07-26 03:46:18</sys_updated_on>
         </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-26 03:46:18</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>4f38ca7bdbcc4700e6a0d5f0cf961925</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_bp3g_rm_rmm" name="x_bp3g_rm_rmm" sys_domain="global" view="Default view">8f38ca7bdbcc4700e6a0d5f0cf961920</sys_ui_form>
-            <sys_ui_section caption="Requirement" display_value="Requirement" name="x_bp3g_rm_rmm" sys_domain="global" view="Default view">4338ca7bdbcc4700e6a0d5f0cf96191f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-26 03:46:18</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-07-26 03:46:18</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>c738ca7bdbcc4700e6a0d5f0cf96192a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_bp3g_rm_rmm" name="x_bp3g_rm_rmm" sys_domain="global" view="Default view">8f38ca7bdbcc4700e6a0d5f0cf961920</sys_ui_form>
-            <sys_ui_section caption="Business Rules" display_value="Business Rules" name="x_bp3g_rm_rmm" sys_domain="global" view="Default view">4338ca7bdbcc4700e6a0d5f0cf961920</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-07-26 03:46:18</sys_updated_on>
-        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_bp3g_rm_rmm</name>
             <roles/>
